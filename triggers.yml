@@ -5,7 +5,7 @@ meta:
   timezone: "Europe/Zurich"
   lookback_hours_default: 24
   linear:
-    create_issue_mode: "draft"  # draft | mcp | manual
+    create_issue_mode: "mcp"  # draft | mcp | manual
 
 promotion_policy:
   top5_rule:
