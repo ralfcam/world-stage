@@ -1,0 +1,23 @@
+tag,category,description,examples
+Rates,Macro/Policy,"Central bank policy, yield curves, and rate expectations.",FOMC decision; curve steepening
+FX,Macro/Markets,"Exchange rates, pegs, interventions, FX liquidity.",USD surge; JPY carry unwind
+Credit,Macro/Markets,"Credit spreads, default risk, funding conditions.",HY widening; bank CDS
+Equities,Macro/Markets,"Equity indices, sector rotation, earnings-linked repricing.",global selloff; sector rotation
+Volatility,Macro/Markets,Implied/realized volatility and risk aversion gauges.,VIX spike; FX vol jump
+Inflation,Macro,Price dynamics and inflation expectations.,CPI surprise; wage prints
+Growth,Macro,"Output/activity, recession risk, leading indicators.",PMI drop; retail sales
+Liquidity,Macro/Markets,"Market functioning, funding stress, collateral issues.",repo stress; dollar funding
+Energy,Commodities,"Oil/gas supply-demand, outages, policy.",OPEC guidance; outage
+Metals,Commodities,Industrial/precious metals tied to growth and geopolitics.,copper move; gold bid
+Agriculture,Commodities,"Food commodities, weather, export bans.",grain corridor; export restriction
+Shipping,Real Economy,"Freight rates, routes, chokepoints, insurance.",Red Sea diversion; Suez delay
+SupplyChains,Real Economy,"Production networks, bottlenecks, reshoring.",semis constraint; port congestion
+Sanctions,Geoeconomics,"Financial/trade sanctions, designations, enforcement.",new sanctions package; enforcement
+ExportControls,Geoeconomics,Restrictions on strategic tech and dual-use goods.,advanced chip controls
+Regulation,Policy,"Rules that affect sectors/flows (finance, tech, energy).",bank capital rules; capital controls
+Defense,Security,"Military operations, deployments, procurement.",mobilization; strikes
+Cyber,Security,Cyber operations affecting markets/infrastructure.,grid attack; banking outage
+Diplomacy,Geopolitics,"Talks, alliances, treaties, signaling.",summit; ceasefire proposal
+DomesticPolitics,Politics,"Elections, protests, legitimacy shocks.",snap election; mass unrest
+Mindmap,Meta,Nodes/edges updates to your conceptual map.,add edge; merge node
+LinearOps,Meta,"Actions, improvements, and issue management workflow.",issue draft; backlog grooming

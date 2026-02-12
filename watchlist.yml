@@ -1,0 +1,155 @@
+# watchlist.yml — source-of-truth (commit this file to GitHub)
+# Purpose: canonical actor/theater list + market channels + key questions.
+# Timezone: Europe/Zurich (CET/CEST)
+
+meta:
+  space_title: "Global Macro + Geopolitics Market Monitor (CET)"
+  source_of_truth: "github"
+  repo:
+    name: "world-stage-monitor"
+    default_branch: "main"
+    paths:
+      watchlist: "watchlist.yml"
+      triggers: "triggers.yml"
+      daily_template: "daily_template.md"
+      taxonomy: "taxonomy.csv"
+  artifact_paths:
+    daily_briefs: "briefs/daily/"
+    drivers: "briefs/drivers/"
+    energy: "briefs/energy/"
+    policy: "briefs/policy/"
+    weekly: "briefs/weekly/"
+
+watchlist:
+  tier1:  # pricing engines (first-order drivers)
+    - code: US
+      name: United States
+      primary_channels: [Rates, FX, Liquidity, Credit, Sanctions]
+      key_questions:
+        - "What changed in Fed reaction function or market-implied path?"
+        - "Any USD funding stress / liquidity signals?"
+      baseline_sources_hint: ["federalreserve.gov", "treasury.gov", "bls.gov", "bea.gov"]
+
+    - code: EA
+      name: Euro area (ECB)
+      primary_channels: [Rates, FX, Credit, Regulation]
+      key_questions:
+        - "Any shift in ECB guidance or fragmentation risk?"
+        - "Any EU regulatory/sanctions action with market impact?"
+      baseline_sources_hint: ["ecb.europa.eu", "consilium.europa.eu", "ec.europa.eu"]
+
+    - code: CN
+      name: China
+      primary_channels: [Growth, Liquidity, FX, SupplyChains, ExportControls]
+      key_questions:
+        - "Is the growth/credit impulse accelerating or contracting?"
+        - "Any tech policy / export-control escalation affecting supply chains?"
+      baseline_sources_hint: ["pbc.gov.cn", "stats.gov.cn"]
+
+    - code: JP
+      name: Japan (BoJ)
+      primary_channels: [Rates, FX, Volatility]
+      key_questions:
+        - "Any change to normalization path or JGB market functioning?"
+        - "Any catalyst for carry unwind?"
+      baseline_sources_hint: ["boj.or.jp"]
+
+    - code: UK
+      name: United Kingdom (BoE)
+      primary_channels: [Rates, FX, Credit]
+      key_questions:
+        - "Any change in inflation persistence/fiscal narrative that hits gilts/GBP?"
+      baseline_sources_hint: ["bankofengland.co.uk", "ons.gov.uk"]
+
+  tier2:  # macro + risk-premium nodes
+    - code: SA
+      name: Saudi Arabia
+      primary_channels: [Energy, Inflation]
+      key_questions:
+        - "Any credible producer guidance that changes oil balances?"
+      baseline_sources_hint: ["opec.org", "iea.org", "eia.gov"]
+
+    - code: RU
+      name: Russia
+      primary_channels: [Energy, Sanctions, Defense]
+      key_questions:
+        - "Any sanctions tightening/enforcement that changes flows/pricing?"
+        - "Any escalation affecting energy/shipping?"
+      baseline_sources_hint: ["kremlin.ru", "consilium.europa.eu", "treasury.gov"]
+
+    - code: UA
+      name: Ukraine
+      primary_channels: [Defense, Shipping, Agriculture]
+      key_questions:
+        - "Any escalation that could reprice European risk premium?"
+      baseline_sources_hint: ["president.gov.ua"]
+
+    - code: IN
+      name: India
+      primary_channels: [Growth, Inflation, FX]
+      key_questions:
+        - "Any RBI/government actions affecting inflation or capital flows?"
+      baseline_sources_hint: ["rbi.org.in", "mospi.gov.in"]
+
+    - code: TW
+      name: Taiwan
+      primary_channels: [SupplyChains, ExportControls, Defense]
+      key_questions:
+        - "Any cross-strait incident with near-term tail-risk repricing?"
+      baseline_sources_hint: ["mofa.gov.tw"]
+
+    - code: TR
+      name: Türkiye
+      primary_channels: [FX, Inflation, Liquidity]
+      key_questions:
+        - "Any FX shock / policy credibility event with EM contagion risk?"
+      baseline_sources_hint: ["tcmb.gov.tr", "tuik.gov.tr"]
+
+  tier3:  # trigger-only (activate via triggers.yml)
+    - code: IR
+      name: Iran
+      primary_channels: [Energy, Shipping, Sanctions]
+      activation_note: "Activate on Hormuz/shipping incidents or major sanctions shifts."
+
+    - code: IL
+      name: Israel
+      primary_channels: [Defense, Energy]
+      activation_note: "Activate on escalation that threatens energy/shipping or US/EU policy response."
+
+    - code: KR
+      name: South Korea
+      primary_channels: [SupplyChains, Defense]
+
+    - code: AU
+      name: Australia
+      primary_channels: [Commodities, Growth]
+
+    - code: AE
+      name: United Arab Emirates
+      primary_channels: [Energy, Shipping, Sanctions]
+
+    - code: EG
+      name: Egypt / Red Sea / Suez complex
+      primary_channels: [Shipping, Inflation]
+
+    - code: ID
+      name: Indonesia
+      primary_channels: [Commodities, FX]
+
+    - code: BR
+      name: Brazil
+      primary_channels: [Commodities, FX]
+
+    - code: MX
+      name: Mexico
+      primary_channels: [FX, SupplyChains]
+
+
+theaters:
+  chokepoints:
+    - name: Strait of Hormuz
+      channels: [Energy, Shipping, Volatility]
+    - name: Red Sea / Bab el-Mandeb / Suez
+      channels: [Shipping, Inflation, Volatility]
+    - name: Taiwan Strait / South China Sea
+      channels: [SupplyChains, Volatility, Defense]

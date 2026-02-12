@@ -1,0 +1,77 @@
+# triggers.yml — source-of-truth (commit this file to GitHub)
+# Purpose: promotion logic + what gets elevated to Top-5 in daily briefs.
+
+meta:
+  timezone: "Europe/Zurich"
+  lookback_hours_default: 24
+  linear:
+    create_issue_mode: "draft"  # draft | mcp | manual
+
+promotion_policy:
+  top5_rule:
+    - "Promote if plausible repricing in 1–3 sessions for: G10 yields, USD broad, oil/gas, global credit spreads, major equity indices."
+  deconflict_rule:
+    - "Do not displace Tier-1 central-bank/rates drivers unless the event transmits via Energy/Shipping/Sanctions/Great-power escalation."
+
+triggers:
+  rates_fx:
+    - id: cb_surprise
+      label: "Central bank surprise"
+      condition: "Surprise decision, emergency operation, or clear comms pivot (Fed/ECB/BoJ/BoE/PBoC)."
+      promote: [US, EA, JP, UK, CN]
+      required_fields_in_brief: ["mechanism", "asset_channels", "next_24_72h_triggers"]
+
+    - id: fx_stress_em
+      label: "EM FX stress"
+      condition: "Gap move, capital controls, emergency meeting, forced intervention, or credibility shock."
+      promote: [TR, BR, MX, ID]
+      required_fields_in_brief: ["contagion_map", "invalidate_conditions"]
+
+  energy_shipping:
+    - id: chokepoint_disruption
+      label: "Chokepoint disruption"
+      condition: "Kinetic incident, blockade, or sustained disruption in Hormuz or Red Sea/Suez."
+      promote: ["Strait of Hormuz", "Red Sea / Bab el-Mandeb / Suez", IR, EG, SA]
+      required_fields_in_brief: ["freight_implications", "inflation_pass_through"]
+
+    - id: producer_guidance_shift
+      label: "Major producer guidance shift"
+      condition: "Credible OPEC+/major producer guidance that changes expected balances."
+      promote: [SA, RU]
+
+  sanctions_tech:
+    - id: major_sanctions_action
+      label: "Major sanctions action"
+      condition: "New/expanded sanctions with clear enforcement posture affecting energy, banking, shipping, or strategic tech."
+      promote: [US, EA, UK, RU, CN]
+      required_fields_in_brief: ["who_affected", "market_channel", "primary_link"]
+
+    - id: export_controls_escalation
+      label: "Export controls escalation"
+      condition: "New controls on advanced semis/AI compute, lithography, critical minerals, or cloud/compute access."
+      promote: [US, CN, TW, JP, KR]
+
+  conflict:
+    - id: direct_escalation
+      label: "Direct escalation"
+      condition: "Direct state-on-state strikes or mobilization that can widen conflict."
+      promote: [RU, UA, IL, IR]
+      note: "Elevate to Top-5 only if it hits Energy/Shipping/Sanctions or involves great-power signaling."
+
+  domestic_politics:
+    - id: regime_stability_shock
+      label: "Regime stability shock"
+      condition: "Coup attempt, emergency rule, major unrest in systemically relevant producer/market."
+      promote: [TR, SA, IR, EG]
+
+linear_issue_drafts:
+  when_to_write:
+    - "Missing/low-quality primary source for a recurring item."
+    - "Trigger produced false positive/negative for 3+ days."
+    - "Template section repeatedly yields low signal-to-noise."
+  required_fields:
+    - "Title"
+    - "Labels (taxonomy tags)"
+    - "Problem"
+    - "Evidence"
+    - "Proposed fix (file + exact change)"
