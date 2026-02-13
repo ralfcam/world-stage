@@ -1,10 +1,10 @@
-# INDICATORS.md — Market-impact dashboard (source-of-truth)
+# docs/INDICATORS.md — Market-impact dashboard (source-of-truth)
 
 Purpose: define the minimal indicator set and **attention thresholds** used by Tasks to decide what is market-moving.
 
 Contract:
 - Tasks must reference this file when writing Top-5 items and when deciding whether to activate Tier-3 nodes.
-- Thresholds are *heuristics* (not hard rules). When in doubt, explain the mechanism and uncertainty.
+- Thresholds are heuristics (not hard rules). When in doubt, explain the mechanism and uncertainty.
 
 ## 0) Daily decision rules
 1) Prefer indicators with fast transmission to pricing engines (Rates/FX/Energy/Credit).

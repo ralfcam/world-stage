@@ -1,4 +1,4 @@
-# Mindmap (canonical nodes & edges)
+# docs/MINDMAP.md — Mindmap (canonical nodes & edges)
 
 This file is the canonical conceptual map. Daily briefs propose small deltas; weekly updates consolidate.
 

@@ -1,16 +1,8 @@
-# Changelog
+# docs/CHANGELOG.md
 
-All notable changes to the monitoring system should be documented here.
+All meaningful changes to source-of-truth files and monitoring logic should be recorded here.
 
-Format:
-- YYYY-MM-DD — Summary
-  - Added:
-  - Changed:
-  - Removed:
-  - Rationale:
-
-## 2026-02-12
-- Added: initial docs scaffolding.
-- Changed: n/a
-- Removed: n/a
-- Rationale: establish source-of-truth architecture and operating procedures.
+## 2026-02-13
+- Added GitHub-only continuity artifacts: `briefs/state/continuity_last7d.md` and `briefs/state/active_narratives.yml`.
+- Tightened placeholders in `daily_template.md` to require continuity classification and reference anchors.
+- Added canonical docs under `docs/` and a testing runbook.

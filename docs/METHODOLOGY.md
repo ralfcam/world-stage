@@ -1,4 +1,4 @@
-# Methodology (market-impact bias)
+# docs/METHODOLOGY.md — Methodology (market-impact bias)
 
 ## Objective
 Turn the newsflow into a small set of tradable, testable narratives.

@@ -1,9 +1,9 @@
-# Triggers playbook
+# docs/TRIGGERS_PLAYBOOK.md — Triggers playbook
 
 This document explains the intent behind `triggers.yml` and how to tune it.
 
 ## How triggers are used
-A trigger is a *promotion rule* that elevates an actor/theater into the brief’s Top 5 and forces specific fields (mechanism, asset channels, invalidation) to be written.
+A trigger is a promotion rule that elevates an actor/theater into the brief’s Top 5 and forces specific fields (mechanism, asset channels, invalidation) to be written.
 
 ## Trigger tuning
 - False positive: promoted item rarely moved markets or was mostly rumor.

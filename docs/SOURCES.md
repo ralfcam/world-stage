@@ -1,4 +1,4 @@
-# Sources (curation + authority)
+# docs/SOURCES.md — Sources (curation + authority)
 
 Goal: minimize noise and maximize primary confirmation.
 

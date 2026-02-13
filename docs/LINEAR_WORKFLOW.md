@@ -1,23 +1,23 @@
-# Linear workflow
+# docs/LINEAR_WORKFLOW.md — Linear workflow
 
 Purpose: close the loop between monitoring output and system improvement.
 
 ## Issue types
-- **Source gap:** missing primary source, or unreliable link.
-- **Trigger tuning:** repeated false positives/negatives.
-- **Template fix:** sections that produce noise or omit key fields.
-- **Coverage change:** promote/demote actors, add a theater.
+- Source gap
+- Trigger tuning
+- Template fix
+- Coverage change
 
-## Required fields (standard)
+## Required fields
 - Problem
 - Evidence (link + excerpt/summary)
 - Proposed fix (file + exact change)
-- Success criteria (what will be better next week)
+- Success criteria
 
 ## Weekly cadence
-- Monday: triage new issues (close, defer, or schedule).
-- Friday: implement 1–3 small improvements.
-- Sunday: update weekly mindmap + update changelog.
+- Monday: triage
+- Friday: implement 1–3 improvements
+- Sunday: update weekly mindmap + changelog
 
 ## Labeling
-Use `taxonomy.csv` tags as labels (Rates, FX, Energy, Sanctions, Shipping, etc.).
+Use taxonomy tags as labels (Rates, FX, Energy, Sanctions, Shipping, etc.).

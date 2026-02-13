@@ -1,4 +1,4 @@
-# Linear labels (mapping)
+# docs/LINEAR_LABELS.md — Linear labels (mapping)
 
 Use these labels so issues remain searchable and consistent with `taxonomy.csv`.
 
