@@ -4,21 +4,47 @@
 # Timezone: Europe/Zurich (CET/CEST)
 
 meta:
-  last_updated_cet: "{{YYYY-MM-DD}}"
+  last_updated_cet: "2026-02-14"
   lookback_days: 7
 
-narratives: []
+narratives:
+  - id: us_disinflation_dove
+    title: "US Disinflation / Dove Pivot"
+    tags: [Rates, Inflation]
+    status: active
+    since: "2026-02-14"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Fed speakers push back against easing"
+      - "Next inflation print surprises high"
+    primary_sources:
+      - "https://www.bls.gov/news.release/cpi.nr0.htm"
+    notes: "Fueled by Jan CPI miss (2.4%)."
 
-# Example narrative (copy/paste, then remove comments):
-# - id: usd_funding_stress
-#   title: "USD funding stress / liquidity premium"
-#   tags: [Liquidity, FX, Credit]
-#   status: active   # active | monitoring | retired
-#   since: "{{YYYY-MM-DD}}"
-#   last_seen: "{{YYYY-MM-DD}}"
-#   continuity_ref: "briefs/daily/{{YYYY-MM-DD}}.md"
-#   invalidate_conditions:
-#     - "Clear easing in funding-stress commentary; no follow-through in risk-off narratives"
-#   primary_sources:
-#     - "https://www.federalreserve.gov/"
-#   notes: "Keep phrasing consistent across briefs; avoid inventing numbers."
+  - id: us_iran_diplomacy
+    title: "US-Iran Diplomacy / De-escalation"
+    tags: [Geopolitics, Energy]
+    status: active
+    since: "2026-02-02"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Official denial from White House/Tehran"
+      - "New kinetic escalation in Hormuz"
+    primary_sources:
+      - "Media reports (unconfirmed)"
+    notes: "Market skepticism growing; Oil stabilized."
+
+  - id: gold_breakout
+    title: "Gold Breakout >$5k"
+    tags: [Metals, FX]
+    status: active
+    since: "2026-02-14"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Close below $4900"
+    primary_sources:
+      - "Market Data"
+    notes: "Reversal from prior selloff."

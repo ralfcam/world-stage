@@ -4,20 +4,23 @@
 > Update policy: overwrite daily (Task 1) using the last 7 daily briefs.
 > Timezone: Europe/Zurich (CET/CEST)
 
-Last updated: {{YYYY-MM-DD}} (CET)
+Last updated: 2026-02-14 (CET)
 Lookback window: last 7 daily briefs
 
 ## Active narratives (carry)
-- {{Narrative title}} — Since: {{YYYY-MM-DD}}; Last seen: {{YYYY-MM-DD}}; Status: Ongoing; Ref: briefs/daily/{{YYYY-MM-DD}}.md {{tags like [Rates][FX]}}
+- US Disinflation / Dove Pivot — Since: 2026-02-14; Last seen: 2026-02-14; Status: Ongoing; Ref: briefs/daily/2026-02-14.md [Rates][Inflation]
+- US-Iran Diplomacy / De-escalation — Since: 2026-02-02; Last seen: 2026-02-14; Status: Ongoing (Stalled?); Ref: briefs/daily/2026-02-14.md [Geopolitics][Energy]
+- Asian/Global Equity Bull — Since: 2026-02-13; Last seen: 2026-02-14; Status: Ongoing; Ref: briefs/daily/2026-02-14.md [Equities]
+- JPY Weakness / Yield Divergence — Since: 2026-02-13; Last seen: 2026-02-14; Status: Ongoing; Ref: briefs/daily/2026-02-14.md [FX]
 
 ## Reversals / inflections
-- {{Narrative title}} — What flipped: {{1 line}}; Ref: briefs/daily/{{YYYY-MM-DD}}.md {{tags}}
+- Gold Price Action — What flipped: Rally (+2.5%) reversed prior selloff; Ref: briefs/daily/2026-02-14.md [Metals]
 
 ## New themes (emerged)
-- {{Narrative title}} — Why it’s new: {{1 line}}; Ref: briefs/daily/{{YYYY-MM-DD}}.md {{tags}}
+- CPI Miss (2.4%) — Why it’s new: Confirmed data below consensus; Ref: briefs/daily/2026-02-14.md [Macro]
 
 ## Retired themes (no longer active)
-- {{Narrative title}} — Why retired: {{1 line}}; Last seen: {{YYYY-MM-DD}} {{tags}}
+- Pre-CPI Anxiety — Why retired: Event passed; Last seen: 2026-02-13 [Volatility]
 
 ## Known watchpoints (not Top-5)
-- {{Watchpoint}} — Mechanism unclear / below threshold; Next trigger: {{24–72h}} {{tags}}
+- CNY Breakout — Mechanism unclear / below threshold; Next trigger: PBoC fixing [FX]
