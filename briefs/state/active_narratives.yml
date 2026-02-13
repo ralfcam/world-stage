@@ -1,0 +1,24 @@
+# active_narratives.yml — narrative registry (template)
+# Purpose: machine-friendly continuity store for Tasks (GitHub-only, no Python required).
+# Update policy: overwrite daily (Task 1) and optionally curate weekly.
+# Timezone: Europe/Zurich (CET/CEST)
+
+meta:
+  last_updated_cet: "{{YYYY-MM-DD}}"
+  lookback_days: 7
+
+narratives: []
+
+# Example narrative (copy/paste, then remove comments):
+# - id: usd_funding_stress
+#   title: "USD funding stress / liquidity premium"
+#   tags: [Liquidity, FX, Credit]
+#   status: active   # active | monitoring | retired
+#   since: "{{YYYY-MM-DD}}"
+#   last_seen: "{{YYYY-MM-DD}}"
+#   continuity_ref: "briefs/daily/{{YYYY-MM-DD}}.md"
+#   invalidate_conditions:
+#     - "Clear easing in funding-stress commentary; no follow-through in risk-off narratives"
+#   primary_sources:
+#     - "https://www.federalreserve.gov/"
+#   notes: "Keep phrasing consistent across briefs; avoid inventing numbers."
