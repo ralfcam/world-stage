@@ -1,42 +1,48 @@
-# state_pack.md — continuity state pack (template)
+# briefs/state/state_pack.md — continuity pack (template)
 
-> Purpose: reduce tool calls by bundling continuity inputs into one GitHub fetch.
-> Update policy: overwrite daily **after** Task 1 runs.
+> Purpose: small continuity payload (GitHub-only; no TKG).
+> Update policy: overwrite daily **after** Tasks 1–4 complete (see Task 5).
 > Timezone: Europe/Zurich (CET/CEST)
 
-Last updated: {{YYYY-MM-DD}} (CET)
+Last updated (CET): {{YYYY-MM-DD}}
 Lookback: last 7 daily briefs
-Latest daily brief (expected): `briefs/daily/{{YYYY-MM-DD}}.md`
 
-## How Tasks should use this
-- Prefer fetching this file instead of fetching `continuity_last7d.md` + `active_narratives.yml` separately.
-- Enforce in Top-5 lines: `Continuity: New | Ongoing | Reversal (ref: YYYY-MM-DD)`.
-- Use the “Active narratives” list below to keep naming consistent.
+## 1) Yesterday anchor
+- Yesterday brief date (CET): {{YYYY-MM-DD}}
+- Yesterday brief path: `briefs/daily/{{YYYY-MM-DD}}.md`
 
----
+## 2) Continuity last 7d (human-readable)
+### Active narratives (carry)
+- {{Narrative title}} — Since: {{YYYY-MM-DD}}; Last seen: {{YYYY-MM-DD}}; Status: Ongoing; Ref: `briefs/daily/{{YYYY-MM-DD}}.md` {{tags like [Rates][FX]}}
 
-## continuity_last7d.md (embedded)
+### Reversals / inflections
+- {{Narrative title}} — What flipped: {{1 line}}; Ref: `briefs/daily/{{YYYY-MM-DD}}.md` {{tags}}
 
-<!-- Task 5 overwrites everything between BEGIN/END with the current contents of briefs/state/continuity_last7d.md -->
-<!-- BEGIN_CONTINUITY_LAST7D -->
+### New themes (emerged)
+- {{Narrative title}} — Why it’s new: {{1 line}}; Ref: `briefs/daily/{{YYYY-MM-DD}}.md` {{tags}}
 
-(embedded content pending)
+### Retired themes (no longer active)
+- {{Narrative title}} — Why retired: {{1 line}}; Last seen: {{YYYY-MM-DD}} {{tags}}
 
-<!-- END_CONTINUITY_LAST7D -->
-
----
-
-## active_narratives.yml (embedded)
-
-<!-- Task 5 overwrites everything between BEGIN/END with the current contents of briefs/state/active_narratives.yml -->
-<!-- BEGIN_ACTIVE_NARRATIVES_YML -->
-
+## 3) Active narratives registry (YAML)
 ```yaml
 meta:
   last_updated_cet: "{{YYYY-MM-DD}}"
   lookback_days: 7
 
 narratives: []
-```
 
-<!-- END_ACTIVE_NARRATIVES_YML -->
+# Example narrative (copy/paste, then remove comments):
+# - id: usd_funding_stress
+#   title: "USD funding stress / liquidity premium"
+#   tags: [Liquidity, FX, Credit]
+#   status: active   # active | monitoring | retired
+#   since: "{{YYYY-MM-DD}}"
+#   last_seen: "{{YYYY-MM-DD}}"
+#   continuity_ref: "briefs/daily/{{YYYY-MM-DD}}.md"
+#   invalidate_conditions:
+#     - "Clear easing in funding-stress commentary; no follow-through in risk-off narratives"
+#   primary_sources:
+#     - "https://www.federalreserve.gov/"
+#   notes: "Keep phrasing consistent across briefs; avoid inventing numbers."
+```
