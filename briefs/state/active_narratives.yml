@@ -8,69 +8,72 @@ meta:
   lookback_days: 7
 
 narratives:
+  - id: us_disinflation_growth_scare
+    title: "US Disinflation & Growth Scare"
+    tags: [Rates, Equities]
+    status: active
+    since: "2026-02-13"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "CPI > 3.0%"
+      - "Retail Sales Boom"
+    primary_sources:
+      - "BLS"
+    notes: "CPI 2.4% (Miss) + Soft Retail Sales. Yields <4.07%."
+
+  - id: geneva_peace_talks
+    title: "Geneva Peace Talks (US/RU/UA)"
+    tags: [Geopolitics]
+    status: active
+    since: "2026-02-14"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Talks Cancelled"
+      - "Major Escalation"
+    primary_sources:
+      - "Kremlin"
+      - "Kyiv"
+    notes: "Trilateral set for Feb 17-18."
+
+  - id: fed_chair_friction
+    title: "Fed Chair Nomination Friction"
+    tags: [Politics, Rates]
+    status: active
+    since: "2026-02-14"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Warsh Confirmed"
+      - "Nomination Withdrawn"
+    primary_sources:
+      - "Senate"
+    notes: "Sen. Tillis blocking Warsh over Powell probe."
+
+  - id: oil_stabilization
+    title: "Oil Stabilization ~$68"
+    tags: [Energy]
+    status: active
+    since: "2026-02-14"
+    last_seen: "2026-02-14"
+    continuity_ref: "briefs/daily/2026-02-14.md"
+    invalidate_conditions:
+      - "Break <$65"
+      - "Rally >$72"
+    primary_sources:
+      - "ICE"
+    notes: "Recovered from panic selloff."
+
   - id: boj_hike_cycle
-    title: "BoJ Aggressive Tightening (0.75%)"
+    title: "BoJ Aggressive Tightening"
     tags: [Rates, FX]
     status: active
     since: "2026-02-14"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
-      - "BoJ reverses or pauses"
-      - "Global deflation shock"
+      - "BoJ Pause"
     primary_sources:
-      - "CentralBanking"
-    notes: "Rates to 30-year high (0.75%). JPY strengthens."
-
-  - id: us_disinflation_growth_scare
-    title: "US Disinflation & Growth Scare"
-    tags: [Rates, Equities]
-    status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
-    invalidate_conditions:
-      - "Fed hawks push back"
-      - "Data surprise upside"
-    primary_sources:
-      - "BLS"
-    notes: "CPI 2.4% (Miss). Equities sell off (Bad News is Bad News?)."
-
-  - id: gold_breakout_5k
-    title: "Gold Breakout Above $5,000/oz"
-    tags: [Metals, Volatility]
-    status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
-    invalidate_conditions:
-      - "Close below $4,900"
-    primary_sources:
-      - "Market data"
-    notes: "Reversed prior -3.5% selloff; trading >$5,000."
-
-  - id: us_iran_diplomacy_stalled
-    title: "US-Iran Diplomacy Stalled"
-    tags: [Geopolitics, Energy]
-    status: stalled
-    since: "2026-02-13"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
-    invalidate_conditions:
-      - "Treaty signed"
-      - "Escalation"
-    primary_sources:
-      - "Mezha"
-    notes: "Oil bouncing back after crash. Market skeptical of peace reports."
-
-  - id: cny_strength
-    title: "CNY Multi-Year Highs"
-    tags: [FX]
-    status: active
-    since: "2026-02-13"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
-    invalidate_conditions:
-      - "PBoC intervention"
-    primary_sources:
-      - "Market data"
+      - "BoJ"
+    notes: "Monitoring JGB curve."
