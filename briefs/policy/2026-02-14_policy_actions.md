@@ -1,44 +1,25 @@
-# Policy Actions Brief – 2026-02-14
+# Policy Actions: 2026-02-14
 
-**Scope:** Sanctions / Export Controls / Regulatory Actions (primary sources only)  
-**Lookback:** 24h (Feb 13-14, 2026)
+## US / Venezuela: Major Sanctions Relief for Energy Sector
+- **Change:** OFAC issued General Licenses 49 and 50 authorizing negotiations for investment and oil/gas operations by certain entities, expanding on GL 46A/48 (Feb 10) which allowed lifting of Venezuelan-origin oil.
+- **Affected:** US oil majors (Chevron, etc.), PDVSA, Venezuela sovereign debt holders.
+- **Market Channel:** Energy (Supply/Balances), Credit (EM Sovereigns).
+- **Primary Link:** [OFAC Venezuela-Related Sanctions](https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions)
+- **Tags:** [Sanctions][Energy][PolicyReversal]
+- **Continuity:** Reversal (ref: 2026-02-13)
 
----
+## US / Regulation: FinCEN Sanctions Whistleblower Program
+- **Change:** FinCEN launched a whistleblower program offering awards for tips leading to >$1M in penalties for sanctions/AML violations.
+- **Affected:** Global financial institutions, compliance officers.
+- **Market Channel:** Regulation (Compliance Costs).
+- **Primary Link:** [FinCEN Press Release](https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions)
+- **Tags:** [Regulation][Enforcement]
+- **Continuity:** New (ref: 2026-02-13)
 
-## Active Policy Actions (Primary-Sourced)
-
-### 1. US Lifts Venezuela Investment Ban (General License 44B)
-**What changed:** US Treasury/OFAC lifted upstream investment restrictions for 5 Western majors (Chevron, BP, Shell, Eni, Repsol), authorizing new drilling/JV expansion.
-**Who/what affected:** 
-- **Entities:** Chevron, BP, Shell, Eni, Repsol, PDVSA JVs.
-- **Sector:** Venezuela upstream oil/gas.
-**Market channel:** 
-- **Energy:** Mid-term supply addition (bullish supply); immediate sentiment hit to Brent risk premium.
-- **Equities:** Capex/Revenue upside for designated majors.
-**Primary source:** [OFAC Venezuela-Related General Licenses (Feb 13, 2026)](https://ofac.treasury.gov/recent-actions)
-**Tags:** [Sanctions][Energy]
-**Continuity:** New (ref: 2026-02-13)
-
----
-
-## Summary Statistics
-
-| Metric | Count |
-|--------|-------|
-| Total actions (confirmed) | 1 |
-| Entities designated | 0 (Relief action) |
-| Jurisdictions affected | Venezuela, US, EU (Oil Majors) |
-| Primary channels | Energy, Equities |
-
----
-
-## Watchpoints
-
-1. **EU 16th/20th Package Convergence:** Monitor if EU aligns with US easing on Venezuela or accelerates Russia tightening (proposed Feb 6).
-2. **PDVSA Production Response:** Track rig count/service contract tenders from the 5 authorized majors.
-
----
-
-## Linear Issue Recommendations
-
-None.
+## UK / Russia: Sanctions List Update
+- **Change:** FCDO updated the UK Sanctions List pursuant to the Russia (Sanctions) (EU Exit) Regulations 2019.
+- **Affected:** Designated individuals/entities (specifics pending full notice review).
+- **Market Channel:** Sanctions (Targeted).
+- **Primary Link:** [FCDO Financial Sanctions Notice](https://www.gov.uk/government/publications/financial-sanctions-consolidated-list-of-targets)
+- **Tags:** [Sanctions][Russia]
+- **Continuity:** Ongoing (ref: 2026-02-13)
