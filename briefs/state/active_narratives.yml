@@ -1,6 +1,6 @@
 # active_narratives.yml — narrative registry
-# Purpose: machine-friendly continuity store for Tasks (GitHub-only, no Python required).
-# Update policy: overwrite daily (Task 1) and optionally curate weekly.
+# Purpose: machine-friendly continuity store for Tasks.
+# Update policy: overwrite daily.
 # Timezone: Europe/Zurich (CET/CEST)
 
 meta:
@@ -8,76 +8,69 @@ meta:
   lookback_days: 7
 
 narratives:
-  - id: us_disinflation_dove
-    title: "US Disinflation / Dove Pivot"
-    tags: [Rates, Inflation]
+  - id: boj_hike_cycle
+    title: "BoJ Aggressive Tightening (0.75%)"
+    tags: [Rates, FX]
     status: active
     since: "2026-02-14"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
-      - "Fed speakers push back against easing expectations"
-      - "Next CPI print surprises high (>2.7%)"
-      - "Labor market data shows re-acceleration"
+      - "BoJ reverses or pauses"
+      - "Global deflation shock"
     primary_sources:
-      - "https://www.bls.gov/news.release/cpi.nr0.htm"
-    notes: "Triggered by Jan CPI miss (2.4% vs 2.5% consensus); core 2.5% (lowest since 2021). Market repricing higher probability of H1 rate cuts."
+      - "CentralBanking"
+    notes: "Rates to 30-year high (0.75%). JPY strengthens."
 
-  - id: us_iran_diplomacy_stalled
-    title: "US-Iran Diplomacy Stalled"
-    tags: [Geopolitics, Energy]
-    status: stalled
-    since: "2026-02-02"
+  - id: us_disinflation_growth_scare
+    title: "US Disinflation & Growth Scare"
+    tags: [Rates, Equities]
+    status: active
+    since: "2026-02-14"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
-      - "Framework agreement announced"
-      - "Kinetic escalation in Hormuz"
-      - "Official denial of ongoing talks"
+      - "Fed hawks push back"
+      - "Data surprise upside"
     primary_sources:
-      - "https://www.bbc.com/news/articles/cr57g1y8286o"
-    notes: "Oman talks produced no breakthrough. Oil recovered to ~$68-69 after crash to ~$63. Market skepticism rising; safe-haven flows to gold."
+      - "BLS"
+    notes: "CPI 2.4% (Miss). Equities sell off (Bad News is Bad News?)."
 
   - id: gold_breakout_5k
     title: "Gold Breakout Above $5,000/oz"
-    tags: [Metals, FX, Volatility]
+    tags: [Metals, Volatility]
     status: active
     since: "2026-02-14"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
       - "Close below $4,900"
-      - "Risk-on rally with sharp USD strength"
     primary_sources:
       - "Market data"
-    notes: "Reversed prior -3.5% selloff; trading ~$5,002 (+1.6% on day). Safe-haven bid despite easing geopolitics."
+    notes: "Reversed prior -3.5% selloff; trading >$5,000."
 
-  - id: jpy_strength_carry_unwind_risk
-    title: "JPY Strength / Carry Unwind Risk"
-    tags: [FX, Rates, Volatility]
-    status: active
+  - id: us_iran_diplomacy_stalled
+    title: "US-Iran Diplomacy Stalled"
+    tags: [Geopolitics, Energy]
+    status: stalled
     since: "2026-02-13"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
-      - "BoJ intervention (official FX intervention)"
-      - "USD/JPY breaks back above 155"
-      - "Global vol regime shift (VIX <15)"
+      - "Treaty signed"
+      - "Escalation"
     primary_sources:
-      - "https://tradingeconomics.com/japan/currency"
-    notes: "JPY up ~3.6% over past month; USD/JPY ~152.8. Verbal intervention from Tokyo. PM Takaichi expansionary fiscal agenda adds complexity. JGB curve flattening."
+      - "Mezha"
+    notes: "Oil bouncing back after crash. Market skeptical of peace reports."
 
-  - id: cny_multiyear_highs
+  - id: cny_strength
     title: "CNY Multi-Year Highs"
-    tags: [FX, Growth]
+    tags: [FX]
     status: active
     since: "2026-02-13"
     last_seen: "2026-02-14"
     continuity_ref: "briefs/daily/2026-02-14.md"
     invalidate_conditions:
-      - "PBoC manages Yuan weaker (fixing guidance shift)"
-      - "USD/CNY breaks back above 7.0"
-      - "Capital control tightening"
+      - "PBoC intervention"
     primary_sources:
-      - "https://tradingeconomics.com/china/currency"
-    notes: "USD/CNY ~6.91 (Yuan strongest in years; +4.9% over 12 months). Capital inflow signal or broad USD weakness. PBoC fixing response critical."
+      - "Market data"
