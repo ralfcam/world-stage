@@ -1,39 +1,33 @@
-# Central Banks & Macro Drivers — 2026-02-14 (CET)
+# Central Banks & Macro Driver Update (CET)
+**Date:** 2026-02-14
+**Ref:** `briefs/state/active_narratives.yml`
 
-## 1) Federal Reserve (US)
-*   **Event**: Jan CPI (2.4% YoY vs 2.5% exp); Goolsbee Speech (Feb 13).
-*   **Official Comms**:
-    *   **Goolsbee (Chicago)**: Called Jan CPI "welcome surprise"; noted "case for several more rate cuts" if inflation stays near 2%. [Source: Fox Business](https://www.foxbusiness.com/economy/cpi-inflation-january-2026)
-*   **Driver Class**: **Potential Repricing Catalyst** (Validates H1 cuts).
-*   **Next Event**: Fed Funds Rate Decision (March 18).
-*   **Continuity**: Ongoing (Dovish Pivot) (ref: 2026-02-13).
+## Federal Reserve (Fed)
+**Status:** Noise / confirms prior
+- **Last 24h:** No official policy statements or speeches. The quiet period and lack of new data drivers leave the "Growth Scare" narrative dependent on incoming data (e.g., Retail Sales).
+- **Continuity:** Ongoing (ref: 2026-02-13). Market remains focused on disinflation vs. recession risk balance.
+- **Next Event:** FOMC Minutes (Feb 18, 2026 - *Est.*).
 
-## 2) Bank of Japan (JP)
-*   **Event**: Board Member Tamura Speech (Feb 13).
-*   **Official Comms**:
-    *   **Tamura (Hawk)**: Stated Japan is "very close" to durably achieving 2% target; sees conditions met "by this spring." Signals readiness for next hike (current: 0.75%). [Source: Reuters](https://www.reuters.com/world/asia-pacific/bojs-tamura-sees-good-chance-price-target-being-met-this-spring-2026-02-13/)
-*   **Driver Class**: **Potential Repricing Catalyst** (Reinforces spring hike bets).
-*   **Next Event**: Policy Meeting (March 17-18).
-*   **Continuity**: Ongoing (Normalization) (ref: 2026-02-13).
+## European Central Bank (ECB)
+**Status:** Noise / confirms prior
+- **Last 24h:** **ECB Wage Tracker** (Feb 13) release indicates negotiated wage growth slowing to 3.0% in 2025 and 2.7% in 2026. This "normalisation" confirms the disinflationary trend required for the current policy path. A blog post on asset manager supervision (Feb 13) highlighted non-bank risks but offered no immediate policy signal.
+- **Continuity:** Ongoing (ref: 2026-02-13). Wage data supports the "steady path" narrative.
+- **Next Event:** Governing Council Meeting (March 5, 2026).
 
-## 3) People's Bank of China (CN)
-*   **Event**: Daily Fixing (Feb 13/14).
-*   **Official Comms**:
-    *   **Fixing**: Set stronger (~6.90) signaling intolerance for rapid depreciation despite DXY strength. [Source: InvestingLive](https://investinglive.com/centralbank/pboc-is-expected-to-set-the-usdcny-reference-rate-at-69045-reuters-estimate-20260213/)
-*   **Driver Class**: **Noise / Confirms Prior** (Stability focus).
-*   **Next Event**: LPR Decision (Feb 20).
-*   **Continuity**: Ongoing (Managed Float) (ref: 2026-02-13).
+## Bank of Japan (BoJ)
+**Status:** **Potential repricing catalyst**
+- **Last 24h:** Board Member **Naoki Tamura** (Feb 13) signaled hawkish intent, stating the BoJ will implement policy in a "timely and appropriate manner" and sees a "good chance" of hitting the 2% inflation target by spring. He noted rate hikes' impact has been "extremely limited," potentially clearing the runway for a March or April move.
+- **Continuity:** New (ref: 2026-02-13). Tamura's explicit mention of "spring" tightens the window for the next hike, escalating the `boj_hike_cycle` narrative.
+- **Next Event:** Monetary Policy Meeting (March 18-19, 2026).
 
-## 4) European Central Bank (EA)
-*   **Event**: Quiet Period (Post-Feb 5 Hold).
-*   **Official Comms**: No major speeches Feb 13-14.
-*   **Driver Class**: **Noise**.
-*   **Next Event**: Policy Meeting (March 12).
-*   **Continuity**: Ongoing (Data Dependent) (ref: 2026-02-13).
+## Bank of England (BoE)
+**Status:** Noise / confirms prior
+- **Last 24h:** Reports emerged (Feb 13) that the BoE is seeking outside help for private markets stress data, reflecting ongoing focus on non-bank financial intermediation (NBFI) risks but signaling no immediate monetary policy shift.
+- **Continuity:** Ongoing (ref: 2026-02-13). Focus remains on services inflation persistence.
+- **Next Event:** Monetary Policy Summary (March 19, 2026).
 
-## 5) Bank of England (UK)
-*   **Event**: Quiet Period (Post-Feb 5 Hold).
-*   **Official Comms**: No major speeches Feb 13-14.
-*   **Driver Class**: **Noise**.
-*   **Next Event**: MPC Meeting (March 19).
-*   **Continuity**: Ongoing (Gradualism) (ref: 2026-02-13).
+## People's Bank of China (PBoC)
+**Status:** Noise / confirms prior
+- **Last 24h:** No major policy deviation. The central bank maintains a "moderately loose" stance with expectations of further RRR/rate cuts in 2026 to support liquidity, as signaled in recent weeks.
+- **Continuity:** Ongoing (ref: 2026-02-13). Easing bias persists without acute new triggers.
+- **Next Event:** Loan Prime Rate (LPR) Announcement (Feb 20, 2026).
