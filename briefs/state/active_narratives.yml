@@ -4,31 +4,45 @@
 # Timezone: Europe/Zurich (CET/CEST)
 
 meta:
-  last_updated_cet: "2026-02-14"
+  last_updated_cet: "2026-02-15"
   lookback_days: 7
 
 narratives:
-  - id: us_disinflation_growth_scare
-    title: "US Disinflation & Growth Scare"
-    tags: [Rates, Equities]
+  - id: us_disinflation_energy_crash
+    title: "US Disinflation & Energy Crash"
+    tags: [Rates, Equities, Energy]
     status: active
     since: "2026-02-13"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
+    last_seen: "2026-02-15"
+    continuity_ref: "briefs/daily/2026-02-15.md"
     invalidate_conditions:
       - "CPI > 3.0%"
-      - "Retail Sales Boom"
+      - "Oil > $80"
     primary_sources:
       - "BLS"
-    notes: "CPI 2.4% (Miss) + Soft Retail Sales. Yields <4.07%."
+    notes: "CPI 2.4% + Energy -3.2%. Fed cuts repriced."
+
+  - id: us_iran_escalation
+    title: "US-Iran Military Escalation"
+    tags: [Geopolitics, Energy]
+    status: active
+    since: "2026-02-15"
+    last_seen: "2026-02-15"
+    continuity_ref: "briefs/daily/2026-02-15.md"
+    invalidate_conditions:
+      - "Official Denial"
+      - "De-escalation"
+    primary_sources:
+      - "Reuters (Exclusive)"
+    notes: "US preparing for weeks-long operations."
 
   - id: geneva_peace_talks
     title: "Geneva Peace Talks (US/RU/UA)"
     tags: [Geopolitics]
     status: active
     since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
+    last_seen: "2026-02-15"
+    continuity_ref: "briefs/daily/2026-02-15.md"
     invalidate_conditions:
       - "Talks Cancelled"
       - "Major Escalation"
@@ -37,41 +51,27 @@ narratives:
       - "Kyiv"
     notes: "Trilateral set for Feb 17-18."
 
-  - id: fed_chair_friction
-    title: "Fed Chair Nomination Friction"
-    tags: [Politics, Rates]
-    status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
-    invalidate_conditions:
-      - "Warsh Confirmed"
-      - "Nomination Withdrawn"
-    primary_sources:
-      - "Senate"
-    notes: "Sen. Tillis blocking Warsh over Powell probe."
-
   - id: oil_stabilization
-    title: "Oil Stabilization ~$68"
+    title: "Oil Stabilization ~$70"
     tags: [Energy]
     status: active
     since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
+    last_seen: "2026-02-15"
+    continuity_ref: "briefs/daily/2026-02-15.md"
     invalidate_conditions:
       - "Break <$65"
-      - "Rally >$72"
+      - "Rally >$75"
     primary_sources:
       - "ICE"
     notes: "Recovered from panic selloff."
 
   - id: boj_hike_cycle
-    title: "BoJ Aggressive Tightening"
+    title: "BoJ Hiking Cycle"
     tags: [Rates, FX]
     status: active
     since: "2026-02-14"
-    last_seen: "2026-02-14"
-    continuity_ref: "briefs/daily/2026-02-14.md"
+    last_seen: "2026-02-15"
+    continuity_ref: "briefs/daily/2026-02-15.md"
     invalidate_conditions:
       - "BoJ Pause"
     primary_sources:
