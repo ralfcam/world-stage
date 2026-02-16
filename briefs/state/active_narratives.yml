@@ -1,79 +1,22 @@
-# active_narratives.yml — narrative registry
-# Purpose: machine-friendly continuity store for Tasks.
-# Update policy: overwrite daily.
-# Timezone: Europe/Zurich (CET/CEST)
-
-meta:
-  last_updated_cet: "2026-02-15"
-  lookback_days: 7
-
-narratives:
-  - id: us_disinflation_energy_crash
-    title: "US Disinflation & Energy Crash"
-    tags: [Rates, Equities, Energy]
+active_narratives:
+  - id: oil_us_iran_talks_headline_risk
+    title: "Oil risk premium sensitive to US–Iran nuclear-talk headlines"
     status: active
-    since: "2026-02-13"
-    last_seen: "2026-02-15"
-    continuity_ref: "briefs/daily/2026-02-15.md"
-    invalidate_conditions:
-      - "CPI > 3.0%"
-      - "Oil > $80"
-    primary_sources:
-      - "BLS"
-    notes: "CPI 2.4% + Energy -3.2%. Fed cuts repriced."
-
-  - id: us_iran_escalation
-    title: "US-Iran Military Escalation"
-    tags: [Geopolitics, Energy]
+    since: "2026-02-16"
+    tags: ["Energy","Inflation"]
+    primary_link: "https://www.reuters.com/business/energy/oil-drifts-ahead-us-iran-nuclear-talks-2026-02-16/"
+    last_update: "2026-02-16"
+  - id: red_sea_high_risk_rerouting_regime
+    title: "Red Sea remains high-risk; rerouting/insurance regime persists"
     status: active
-    since: "2026-02-15"
-    last_seen: "2026-02-15"
-    continuity_ref: "briefs/daily/2026-02-15.md"
-    invalidate_conditions:
-      - "Official Denial"
-      - "De-escalation"
-    primary_sources:
-      - "Reuters (Exclusive)"
-    notes: "US preparing for weeks-long operations."
-
-  - id: geneva_peace_talks
-    title: "Geneva Peace Talks (US/RU/UA)"
-    tags: [Geopolitics]
+    since: "2026-02-16"
+    tags: ["Shipping","Inflation","Energy"]
+    primary_link: "https://trans.info/en/red-sea-return-2026-447916"
+    last_update: "2026-02-16"
+  - id: china_holiday_liquidity_offshore_led_cnh
+    title: "China Lunar New Year closure shifts visibility to offshore CNH"
     status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-15"
-    continuity_ref: "briefs/daily/2026-02-15.md"
-    invalidate_conditions:
-      - "Talks Cancelled"
-      - "Major Escalation"
-    primary_sources:
-      - "Kremlin"
-      - "Kyiv"
-    notes: "Trilateral set for Feb 17-18."
-
-  - id: oil_stabilization
-    title: "Oil Stabilization ~$70"
-    tags: [Energy]
-    status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-15"
-    continuity_ref: "briefs/daily/2026-02-15.md"
-    invalidate_conditions:
-      - "Break <$65"
-      - "Rally >$75"
-    primary_sources:
-      - "ICE"
-    notes: "Recovered from panic selloff."
-
-  - id: boj_hike_cycle
-    title: "BoJ Hiking Cycle"
-    tags: [Rates, FX]
-    status: active
-    since: "2026-02-14"
-    last_seen: "2026-02-15"
-    continuity_ref: "briefs/daily/2026-02-15.md"
-    invalidate_conditions:
-      - "BoJ Pause"
-    primary_sources:
-      - "BoJ"
-    notes: "Monitoring JGB curve."
+    since: "2026-02-16"
+    tags: ["FX","Liquidity","Growth"]
+    primary_link: "https://www.marctomarket.com/2026/02/week-ahead-scotus-decision-on-tariffs-8.html"
+    last_update: "2026-02-16"
