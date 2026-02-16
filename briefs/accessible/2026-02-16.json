@@ -1,0 +1,137 @@
+{
+  "date": "2026-02-16",
+  "timezone": "Europe/Zurich",
+  "title": "Daily Market-Mover Brief",
+  "generated_at": "2026-02-16T13:49:59+01:00",
+  "top5": [
+    {
+      "rank": 1,
+      "headline": "Oil trades sideways into US–Iran nuclear talks",
+      "continuity": "New",
+      "continuity_ref": "2026-02-15",
+      "mechanism": "Headline risk can reprice crude risk premium quickly, feeding inflation expectations and central bank policy assumptions.",
+      "market_impact": {
+        "channels": ["Energy", "Inflation"],
+        "description": "Energy risk premium → inflation narratives → rate curve repricing"
+      },
+      "watch_next": "Talk headlines, signals on supply/sanctions posture (24–72h)",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Reuters",
+          "url": "https://www.reuters.com/business/energy/oil-drifts-ahead-us-iran-nuclear-talks-2026-02-16/",
+          "summary": "Oil prices drift/hold steady ahead of US–Iran nuclear talks"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "headline": "Oil balance narrative tug-of-war (IEA vs OPEC-style outlook gap)",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-15",
+      "mechanism": "Narrative shifts can move positioning and term structure even absent a physical shock.",
+      "market_impact": {
+        "channels": ["Energy", "Inflation"],
+        "description": "Competing forecasts shape trader positioning → curve moves"
+      },
+      "watch_next": "Official monthly report headlines and revisions (24–72h)",
+      "confidence": "Reported",
+      "sources": [
+        {
+          "type": "secondary",
+          "outlet": "The National News",
+          "url": "https://www.thenationalnews.com/business/energy/2026/02/16/why-the-iea-and-opec-are-split-on-what-comes-next-for-oil/",
+          "summary": "IEA vs OPEC split on what comes next for oil"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "headline": "US rates remain the core transmission channel; latest 10Y shows downside drift",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-15",
+      "mechanism": "Lower yields ease financial conditions and lean USD tone via relative yield differentials.",
+      "market_impact": {
+        "channels": ["Rates", "FX"],
+        "description": "Lower yields → easier credit conditions, weaker USD"
+      },
+      "watch_next": "Heavy Fed-speaker calendar, data re-pricing the front end (24–72h)",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "FRED (St. Louis Fed)",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "summary": "10Y UST constant-maturity: 4.09% (2026-02-12) vs 4.18% (2026-02-11)"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "headline": "China FX management remains a live macro lever; onshore holiday reduces visibility",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-15",
+      "mechanism": "Fixing/pace-management can anchor regional FX and risk sentiment; onshore closure shifts price discovery to CNH.",
+      "market_impact": {
+        "channels": ["FX", "Liquidity", "Growth"],
+        "description": "PBoC FX guidance → regional currency stability, EM sentiment"
+      },
+      "watch_next": "CNH pricing during holiday, PBoC midpoint/fix framing (24–72h)",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Market context",
+          "url": null,
+          "summary": "China markets closed Feb 16–23 (Lunar New Year); PBoC midpoint management active in recent context"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "headline": "Red Sea risk remains an embedded tail for freight, delivery times, and energy risk premium",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-15",
+      "mechanism": "Any confirmed incident/advisory can reprice insurance and rerouting assumptions.",
+      "market_impact": {
+        "channels": ["Shipping", "Energy", "Inflation"],
+        "description": "Rerouting costs → freight/insurance → delivered inflation"
+      },
+      "watch_next": "Official advisories, credible incident reporting, carrier routing updates (24–72h)",
+      "confidence": "Reported",
+      "sources": [
+        {
+          "type": "secondary",
+          "outlet": "Trans.info",
+          "url": "https://trans.info/en/red-sea-return-2026-447916",
+          "summary": "Red Sea remains high-risk corridor with ongoing diversion behavior"
+        }
+      ]
+    }
+  ],
+  "markets_snapshot": {
+    "rates": "US 10Y down to 4.09% (Feb 12) from 4.18% (Feb 11); Fed-speaker risk elevated this week.",
+    "fx": "China onshore closure (Feb 16–23) shifts CNH price discovery offshore; PBoC FX management active.",
+    "equities": "Supported by rates relief; watch Fed comms and energy headlines for direction.",
+    "credit": "Easier financial conditions from lower yields; monitor spread widening if risk-off catalysts emerge.",
+    "energy": "Oil sideways ahead of US–Iran talks; narrative split (IEA vs OPEC) adds positioning risk."
+  },
+  "geopolitics_watch": {
+    "chokepoints": "Red Sea remains high-risk; rerouting embedded in freight costs and insurance.",
+    "sanctions": "Watch for binding actions on energy/banking/shipping with market channels.",
+    "escalation_risk": "US–Iran nuclear talks are key headline driver for oil risk premium (24–72h)."
+  },
+  "next_catalysts": [
+    "Fed speakers (communications risk on terminal rate, pace of easing)",
+    "US–Iran nuclear talk headlines (oil risk premium)",
+    "CNH pricing during China holiday (FX guidance test)",
+    "Red Sea advisories (freight/insurance repricing)",
+    "IEA/OPEC monthly reports (balance narrative)"
+  ],
+  "methodology": {
+    "evidence_standards": "Confirmed = primary sources (central banks, official data, govt statements); Reported = secondary coverage.",
+    "continuity_tracking": "Each Top-5 item declares New/Ongoing/Reversal vs prior brief.",
+    "promotion_rule": "Geopolitics promoted only if market channel active within 1–3 sessions."
+  }
+}
