@@ -1,0 +1,137 @@
+{
+  "date": "2026-02-17",
+  "timezone": "Europe/Zurich",
+  "title": "Daily Market-Mover Brief",
+  "generated_at": "2026-02-17T13:41:27+01:00",
+  "top5": [
+    {
+      "rank": 1,
+      "headline": "Iran conducts Hormuz exercises ahead of US–Iran nuclear talks",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "Visible military signaling in a key oil chokepoint can lift crude risk premium even without a physical disruption, feeding inflation expectations and rates pricing.",
+      "market_impact": {
+        "channels": ["Energy", "Geopolitics"],
+        "description": "Hormuz signaling → oil risk premium → inflation/rates expectations"
+      },
+      "watch_next": "Talk outcomes vs kinetic escalation risk (24–72h).",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Iran state media (as cited in analyst brief)",
+          "url": null,
+          "summary": "Iran holds military exercises in Strait of Hormuz."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "headline": "Japan Q4 GDP misses expectations, complicating BoJ normalization",
+      "continuity": "New",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "A weak growth print can push out tightening/normalization expectations, moving JGB yields and the yen via rate differentials and risk sentiment.",
+      "market_impact": {
+        "channels": ["Rates", "FX"],
+        "description": "Japan growth miss → BoJ path repricing → JGB/JPY moves"
+      },
+      "watch_next": "BoJ governor comments on 'virtuous cycle' (24–72h).",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Japan Cabinet Office",
+          "url": null,
+          "summary": "Japan Q4 GDP +0.2% annualized vs 1.6% expected (as noted in brief)."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "headline": "European tech/AI jitters weigh on DAX leadership",
+      "continuity": "New",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "AI profit doubts can trigger sector rotation and spill into broader equity risk appetite, particularly in crowded positioning.",
+      "market_impact": {
+        "channels": ["Equities"],
+        "description": "AI skepticism → sector rotation → broader risk sentiment"
+      },
+      "watch_next": "Spillover to US tech futures and broader Europe follow-through (24–72h).",
+      "confidence": "Reported",
+      "sources": [
+        {
+          "type": "secondary",
+          "outlet": "Analyst brief (market color)",
+          "url": null,
+          "summary": "DAX ~-0.5%; Siemens ~-6% on AI profit doubts; rotation risk flagged."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "headline": "US yields and soft CPI keep 'deeper cuts' narrative in play",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-13",
+      "mechanism": "Lower yields can ease financial conditions and lean USD tone; Fed communications can quickly reprice the front end if officials push back.",
+      "market_impact": {
+        "channels": ["Rates", "FX"],
+        "description": "Soft inflation/yields ↓ → easier conditions → USD sensitivity to Fed comms"
+      },
+      "watch_next": "FOMC minutes and Fed speakers (24–72h).",
+      "confidence": "Reported",
+      "sources": [
+        {
+          "type": "secondary",
+          "outlet": "Analyst brief (macro digest)",
+          "url": null,
+          "summary": "Soft CPI cited at 2.4%; 10Y cited at 4.07% (Friday close); US cash markets closed Monday."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "headline": "China Lunar New Year closure reduces onshore visibility, distorting liquidity signals",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "Onshore closure shifts price discovery offshore; thin liquidity can exaggerate CNH and regional moves, with risk of gap/volatility on reopen.",
+      "market_impact": {
+        "channels": ["Liquidity", "FX"],
+        "description": "Onshore closure → offshore-led pricing → reopen volatility risk"
+      },
+      "watch_next": "CNH behavior during closure; reopen volatility next week (24–72h).",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Exchange holiday schedule (as cited in brief)",
+          "url": null,
+          "summary": "Onshore markets closed for Lunar New Year; liquidity thin; offshore flows muted."
+        }
+      ]
+    }
+  ],
+  "markets_snapshot": {
+    "rates": "US cash closed Monday; brief cites 10Y at 4.07% Friday and deeper-cuts pricing after soft CPI.",
+    "fx": "JPY sensitive to BoJ repricing after GDP miss; CNH signals may be liquidity-distorted during China holiday.",
+    "equities": "Europe mixed; DAX lagged on industrial/tech weakness and AI profit doubts.",
+    "credit": "Lower yields typically ease conditions, but comms shocks can widen spreads in risk-off moves.",
+    "energy": "Brent described holding near $68.70 with a geopolitics tension floor from Hormuz signaling."
+  },
+  "geopolitics_watch": {
+    "chokepoints": "Hormuz: military exercises signaling risk premium; Red Sea: diversions persist (per brief).",
+    "sanctions": "Geneva nuclear talks could influence sanctions relief/snapback discussions; market channel via oil supply waivers (per brief).",
+    "escalation_risk": "Key 24–72h driver is talk outcomes vs kinetic escalation in theater."
+  },
+  "next_catalysts": [
+    "US–Iran nuclear talks (Geneva): headlines on sanctions/supply stance",
+    "Fed speakers (Tue/Wed): communications risk to front end",
+    "FOMC minutes: tone vs 'deeper cuts' pricing",
+    "BoJ commentary: reaction function after GDP miss",
+    "China holiday liquidity: watch CNH and prepare for reopen volatility next week"
+  ],
+  "methodology": {
+    "evidence_standards": "Confirmed = primary/official sources; Reported = secondary coverage or market color; unverified claims are explicitly flagged.",
+    "continuity_tracking": "Each Top-5 item declares New/Ongoing/Reversal versus prior brief and includes a reference date.",
+    "promotion_rule": "Geopolitics is promoted to Top-5 only when it can reprice markets via energy, shipping/chokepoints, sanctions/export controls, or escalation risk."
+  }
+}
