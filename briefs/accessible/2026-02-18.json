@@ -1,0 +1,138 @@
+{
+  "date": "2026-02-18",
+  "timezone": "Europe/Zurich",
+  "title": "Daily Market-Mover Brief",
+  "generated_at": "2026-02-18T12:29:10+01:00",
+  "top5": [
+    {
+      "rank": 1,
+      "headline": "US–Iran nuclear talks rumors (Geneva)",
+      "continuity": "New",
+      "continuity_ref": "2026-02-17",
+      "mechanism": "Reports of talks drove Brent/WTI down >2% on risk-premium unwind. Unconfirmed rumors can rapidly reprice oil's embedded hedge against Middle East supply disruptions.",
+      "market_impact": {
+        "channels": ["Energy", "Geopolitics"],
+        "description": "Lower oil → reduced inflation expectations → easier central bank policy path → weaker commodity-exporter currencies"
+      },
+      "watch_next": "Official State Dept/Iran confirmation or denial (24–72h); Israel reaction/signaling; oil rebound if talks denied",
+      "confidence": "Reported",
+      "sources": [
+        {
+          "type": "secondary",
+          "outlet": "Brokerages/Media",
+          "url": null,
+          "summary": "Reports of renewed nuclear talks driving oil lower; no official joint statement found"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "headline": "Russia strikes Ukraine energy grid",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-17",
+      "mechanism": "Large combined strike (Feb 16–17 overnight) degrades EU-adjacent power infrastructure. Risk of spillover into European gas markets if damage disrupts cross-border flows or forces increased consumption.",
+      "market_impact": {
+        "channels": ["Energy", "Defense"],
+        "description": "Infrastructure damage → potential EU gas volatility → higher energy costs (inflation) → prolonged tight ECB policy"
+      },
+      "watch_next": "European gas volatility/spillover (24–72h); EU sanctions response; cold-weather forecasts tightening supply-demand",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "ISW/Official sources",
+          "url": null,
+          "summary": "Large combined strike package verified overnight; continued infrastructure targeting"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "headline": "BOJ April hike signal + strong JGB auction",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "Strong 5Y JGB auction demand; former board member signals April (vs March) hike. Delayed hike keeps yen weaker longer, sustaining global carry trade profitability. Rapid hike would trigger carry unwind and global vol.",
+      "market_impact": {
+        "channels": ["Rates", "FX"],
+        "description": "BOJ timing → yen strength/weakness → global carry trade dynamics → risk asset volatility (equities, EM currencies)"
+      },
+      "watch_next": "USDJPY reaction to yield spread compression (24–72h); BOJ Governor Ueda comments; move above 145 signals carry stress",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "MOF Japan",
+          "url": null,
+          "summary": "Strong demand for 5-year sector; yields lower, supporting JPY stability"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "headline": "Hawkish Fed repricing",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-17",
+      "mechanism": "Markets pricing only ~50bp cuts for 2026; USD supported by 'higher for longer' narrative. Sustained rate advantage keeps dollar bid, tightening financial conditions abroad.",
+      "market_impact": {
+        "channels": ["Rates", "FX"],
+        "description": "Higher-for-longer Fed → USD interest-rate advantage → stronger dollar → weaker non-USD currencies, tighter conditions abroad"
+      },
+      "watch_next": "FOMC Minutes (24–72h); retail sales data; Fed speaker contradictions of hawkish consensus",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Market pricing",
+          "url": null,
+          "summary": "Markets pricing ~50bp Fed cuts in 2026; hawkish hold supports USD"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "headline": "China post-LNY return",
+      "continuity": "Ongoing",
+      "continuity_ref": "2026-02-16",
+      "mechanism": "Onshore markets reopening; traders assessing holiday consumption data. PBoC fixing and reverse repo ops signal liquidity/FX management stance. Offshore CNH stable during holiday suggests limited capital-flight pressure.",
+      "market_impact": {
+        "channels": ["Liquidity", "Growth"],
+        "description": "PBoC yuan management → regional currency stability → EM sentiment → risk asset flows"
+      },
+      "watch_next": "PBoC fixing and reverse repo ops (24–72h); onshore-offshore CNY gap; weak consumption data from holiday",
+      "confidence": "Confirmed",
+      "sources": [
+        {
+          "type": "primary",
+          "outlet": "Market context",
+          "url": null,
+          "summary": "Onshore markets reopening Feb 18; offshore CNH stable/stronger during holiday"
+        }
+      ]
+    }
+  ],
+  "markets_snapshot": {
+    "rates": "USD: Hawkish hold, ~50bp cuts priced for 2026; focus on FOMC minutes. JPY: Yields lower after strong JGB auction; April hike more likely than March.",
+    "fx": "USD supported by higher-for-longer Fed. JPY defensive on BOJ April timing. CNY: onshore reopens; watch PBoC fixing/reverse repos for FX management signals.",
+    "equities": "Supported by lower oil (disinflationary) but capped by Fed hawkishness and geopolitical risk (Russia-Ukraine energy, Iran uncertainty).",
+    "credit": "Spreads stable; lower oil is net positive (easier conditions) but watch for widening if energy vol spikes or risk-off catalysts emerge.",
+    "energy": "Brent ~$68 (down >2% on Iran deal rumors); Russia-Ukraine strikes keep floor under prices despite risk-premium unwind on diplomacy hopes."
+  },
+  "geopolitics_watch": {
+    "chokepoints": "Red Sea rerouting persists (status quo); no new major kinetic event in Hormuz. Russia-Ukraine energy strikes are key near-term risk for EU gas.",
+    "sanctions": "US-Iran diplomacy (unconfirmed): potential thaw could lead to sanctions enforcement relaxation discussions (market pricing probability > 0).",
+    "escalation_risk": "Iran deal rumors are key headline driver for oil (24–72h); Israel reaction could shift Middle East risk premium quickly. Russia energy strikes risk EU spillover."
+  },
+  "next_catalysts": [
+    "US State Department / Iran MFA statements on Geneva talks (official confirmation or denial)",
+    "FOMC minutes (language on inflation outlook, rate path, dissent)",
+    "European gas prices (volatility tied to Russia-Ukraine energy strikes)",
+    "BOJ communications (clarity on March vs April hike timing from Gov Ueda)",
+    "PBoC fixing and reverse repo ops (China liquidity/yuan management signals)",
+    "Israel response to Iran deal rumors (Middle East risk premium)"
+  ],
+  "methodology": {
+    "evidence_standards": "Confirmed = primary sources (central banks, official data, govt statements, verified military reports); Reported = secondary coverage or unverified reports.",
+    "continuity_tracking": "Each Top-5 declares New/Ongoing/Reversal vs prior brief.",
+    "promotion_rule": "Geopolitics promoted only if market channel active within 1–3 sessions."
+  }
+}
