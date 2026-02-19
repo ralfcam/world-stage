@@ -1,29 +1,36 @@
 active_narratives:
+  - id: fed_hawkish_minutes_jan26
+    title: "Fed Minutes reveal 'hike' discussion; rates reprice"
+    status: active
+    since: "2026-02-18"
+    tags: ["Rates", "FX", "Equities"]
+    primary_link: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm"
+    last_update: "2026-02-19"
   - id: oil_iran_talks_geneva
-    title: "Oil drops on unconfirmed US-Iran Geneva talks"
+    title: "Oil drops on US-Iran 'guiding principles' progress"
     status: active
     since: "2026-02-18"
     tags: ["Energy", "Geopolitics"]
-    primary_link: "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---17-february-2026-17022026"
-    last_update: "2026-02-18"
-  - id: russia_ukraine_energy_strikes
-    title: "Russia targeting Ukraine energy infra (Feb 16-17)"
+    primary_link: "https://www.state.gov/briefings/"
+    last_update: "2026-02-19"
+  - id: red_sea_gemini_resumption
+    title: "Gemini Alliance (Maersk/Hapag) attempts Red Sea resumption"
     status: active
-    since: "2026-02-18"
-    tags: ["Energy", "Defense"]
-    primary_link: "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-february-17-2026/"
-    last_update: "2026-02-18"
+    since: "2026-02-02"
+    tags: ["Shipping", "SupplyChains"]
+    primary_link: "https://www.hapag-lloyd.com/en/company/press/releases/2026/02/hapag-lloyd-maersk-suez.html"
+    last_update: "2026-02-19"
   - id: boj_april_hike_signal
     title: "BOJ signaling April hike preference vs March"
     status: active
     since: "2026-02-18"
     tags: ["Rates", "FX"]
-    primary_link: "https://www.bog.gov.gh/wp-content/uploads/2026/02/NEWS-BRIEF-17-02-26.pdf"
+    primary_link: "https://www.boj.or.jp/en/"
     last_update: "2026-02-18"
-  - id: red_sea_high_risk_rerouting_regime
-    title: "Red Sea remains high-risk; rerouting/insurance regime persists"
+  - id: russia_ukraine_energy_strikes
+    title: "Russia targeting Ukraine energy infra (Feb 16-18)"
     status: active
     since: "2026-02-16"
-    tags: ["Shipping", "Inflation", "Energy"]
-    primary_link: "https://trans.info/en/red-sea-return-2026-447916"
-    last_update: "2026-02-17"
+    tags: ["Energy", "Defense"]
+    primary_link: "https://understandingwar.org/"
+    last_update: "2026-02-19"

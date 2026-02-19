@@ -1,12 +1,12 @@
-# Continuity State (Last 7 Days)
-## 2026-02-18
-- **US–Iran Nuclear Talks Rumors (Geneva)**: New. Oil down >2%. Watch for confirmation.
-- **Russia Strikes Ukraine Energy Grid**: Ongoing. Large overnight strike.
-- **BOJ April Hike Signal**: Ongoing. Strong auction supports JGBs; April favored over March.
-- **Hawkish Fed Repricing**: Ongoing. 2026 cuts pared to ~50bp.
-- **China Post-LNY Return**: Ongoing. Onshore reopening focus.
+# Continuity Report (Last 7 Days)
+# Ref: 2026-02-12 to 2026-02-19
 
-## 2026-02-17
-- [From prior state] Oil risk premium sensitive to US–Iran nuclear-talk headlines.
-- [From prior state] Red Sea high-risk rerouting.
-- [From prior state] China Lunar New Year closure shifts visibility to offshore CNH.
+## Key Narrative Arcs
+1. **Fed Policy**: Shifted from "March Cut likely" (Feb 12) → "Hold/Wait" (Feb 15 CPI) → "Hike Risk" (Feb 18 Minutes). Major reversal of easing narrative.
+2. **Iran/Oil**: Shifted from "Escalation Risk/Pre-talks Jitters" (Feb 14) → "Diplomatic Breakthrough/Price Drop" (Feb 18).
+3. **Red Sea**: Consistent tension, now entering a binary test phase with Gemini Alliance resumption.
+4. **Japan**: Steady march toward normalization; April consensus solidifying.
+
+## Retired/Stale Narratives
+- "China LNY Travel Boom" (Faded impact)
+- "ECB Succession Noise" (Resolved/Quieted)
