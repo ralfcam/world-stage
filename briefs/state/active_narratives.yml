@@ -1,36 +1,36 @@
 active_narratives:
-  - id: fed_hawkish_minutes_jan26
-    title: "Fed Minutes reveal 'hike' discussion; rates reprice"
+  - id: trump_iran_ultimatum_feb19
+    title: "Trump sets 15-day deadline for Iran deal; Oil spikes"
+    status: active
+    since: "2026-02-19"
+    tags: ["Geopolitics", "Energy", "Volatility"]
+    primary_link: "https://www.whitehouse.gov/briefing-room/"
+    last_update: "2026-02-20"
+  - id: fed_hawkish_data_feb20
+    title: "Strong US Data + Minutes push yields >4.10%"
     status: active
     since: "2026-02-18"
-    tags: ["Rates", "FX", "Equities"]
-    primary_link: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm"
-    last_update: "2026-02-19"
-  - id: oil_iran_talks_geneva
-    title: "Oil drops on US-Iran 'guiding principles' progress"
+    tags: ["Rates", "FX"]
+    primary_link: "https://www.federalreserve.gov/releases/g17/"
+    last_update: "2026-02-20"
+  - id: japan_cpi_miss_jan
+    title: "Japan Jan CPI slows to 2.0%, testing BoJ hike path"
     status: active
-    since: "2026-02-18"
-    tags: ["Energy", "Geopolitics"]
-    primary_link: "https://www.state.gov/briefings/"
-    last_update: "2026-02-19"
+    since: "2026-02-20"
+    tags: ["Rates", "FX"]
+    primary_link: "https://www.stat.go.jp/english/data/cpi/"
+    last_update: "2026-02-20"
   - id: red_sea_gemini_resumption
     title: "Gemini Alliance (Maersk/Hapag) attempts Red Sea resumption"
     status: active
     since: "2026-02-02"
     tags: ["Shipping", "SupplyChains"]
     primary_link: "https://www.hapag-lloyd.com/en/company/press/releases/2026/02/hapag-lloyd-maersk-suez.html"
-    last_update: "2026-02-19"
-  - id: boj_april_hike_signal
-    title: "BOJ signaling April hike preference vs March"
-    status: active
-    since: "2026-02-18"
-    tags: ["Rates", "FX"]
-    primary_link: "https://www.boj.or.jp/en/"
-    last_update: "2026-02-18"
+    last_update: "2026-02-20"
   - id: russia_ukraine_energy_strikes
-    title: "Russia targeting Ukraine energy infra (Feb 16-18)"
+    title: "Russia targeting Ukraine energy infra (Feb 16-20)"
     status: active
     since: "2026-02-16"
     tags: ["Energy", "Defense"]
     primary_link: "https://understandingwar.org/"
-    last_update: "2026-02-19"
+    last_update: "2026-02-20"
