@@ -1,12 +1,13 @@
 # Continuity Report (Last 7 Days)
-# Ref: 2026-02-13 to 2026-02-20
+# Ref: 2026-02-14 to 2026-02-21
 
 ## Key Narrative Arcs
-1. **Iran/Oil**: High Volatility. Shifted from "Diplomatic Hope" (Feb 18 Geneva Talks) → "War Risk/Ultimatum" (Feb 19 Trump '15 days'). Brent re-pricing risk premium ($67 → $71.50).
-2. **Fed Policy**: "Hike" Risk re-emerged. Jan Minutes + Feb Data (Ind Prod) pushed 10Y yields >4.10%.
-3. **Japan Policy**: "April Hike" consensus challenged by Jan CPI miss (2.0%).
-4. **Red Sea**: Gemini Alliance resumption test is the key active variable for shipping rates.
+1. **Iran/Oil**: "Ultimatum" Phase. Trump's 15-day deadline (Feb 19) repriced Oil >$71. Market pricing in high kinetic risk.
+2. **Russia/Ukraine**: Intensification. Feb 21 massive missile/drone strike on energy grid confirms renewed infrastructure campaign.
+3. **US Markets**: Decoupled Bull. S&P 500 (>6900) ignoring yields (>4.08%) and Geopolitics, driven by growth data.
+4. **Red Sea**: "Return" Test. Gemini Alliance (Maersk) resuming Suez transit mid-Feb is the critical supply chain signal.
+5. **Japan**: Policy Pause? Jan CPI (2.0%) cools "April Hike" bets.
 
 ## Retired/Stale Narratives
-- "China LNY Travel Boom" (Faded)
-- "ECB Succession Noise" (Resolved)
+- "Geneva Talks Hope" (Dead)
+- "China LNY Travel" (Faded)

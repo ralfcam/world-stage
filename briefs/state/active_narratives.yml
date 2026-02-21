@@ -5,32 +5,32 @@ active_narratives:
     since: "2026-02-19"
     tags: ["Geopolitics", "Energy", "Volatility"]
     primary_link: "https://www.whitehouse.gov/briefing-room/"
-    last_update: "2026-02-20"
-  - id: fed_hawkish_data_feb20
-    title: "Strong US Data + Minutes push yields >4.10%"
+    last_update: "2026-02-21"
+  - id: russia_ukraine_energy_strikes_feb21
+    title: "Russia launches massive energy grid strikes (Feb 21)"
     status: active
-    since: "2026-02-18"
-    tags: ["Rates", "FX"]
-    primary_link: "https://www.federalreserve.gov/releases/g17/"
-    last_update: "2026-02-20"
+    since: "2026-02-21"
+    tags: ["Energy", "Defense"]
+    primary_link: "https://abcnews.go.com/International/"
+    last_update: "2026-02-21"
+  - id: sp500_record_high_feb20
+    title: "S&P 500 closes at record 6,909 despite rates/geo"
+    status: active
+    since: "2026-02-20"
+    tags: ["Equities", "Macro"]
+    primary_link: "https://markets.ft.com/"
+    last_update: "2026-02-21"
+  - id: red_sea_gemini_resumption
+    title: "Gemini Alliance (Maersk/Hapag) attempts Red Sea resumption"
+    status: active
+    since: "2026-02-02"
+    tags: ["Shipping", "SupplyChains"]
+    primary_link: "https://www.maersk.com/news/"
+    last_update: "2026-02-21"
   - id: japan_cpi_miss_jan
     title: "Japan Jan CPI slows to 2.0%, testing BoJ hike path"
     status: active
     since: "2026-02-20"
     tags: ["Rates", "FX"]
     primary_link: "https://www.stat.go.jp/english/data/cpi/"
-    last_update: "2026-02-20"
-  - id: red_sea_gemini_resumption
-    title: "Gemini Alliance (Maersk/Hapag) attempts Red Sea resumption"
-    status: active
-    since: "2026-02-02"
-    tags: ["Shipping", "SupplyChains"]
-    primary_link: "https://www.hapag-lloyd.com/en/company/press/releases/2026/02/hapag-lloyd-maersk-suez.html"
-    last_update: "2026-02-20"
-  - id: russia_ukraine_energy_strikes
-    title: "Russia targeting Ukraine energy infra (Feb 16-20)"
-    status: active
-    since: "2026-02-16"
-    tags: ["Energy", "Defense"]
-    primary_link: "https://understandingwar.org/"
-    last_update: "2026-02-20"
+    last_update: "2026-02-21"
