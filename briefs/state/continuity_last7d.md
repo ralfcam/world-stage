@@ -1,13 +1,13 @@
 # Continuity Report (Last 7 Days)
-# Ref: 2026-02-14 to 2026-02-21
+# Ref: 2026-02-15 to 2026-02-22
 
 ## Key Narrative Arcs
-1. **Iran/Oil**: "Ultimatum" Phase. Trump's 15-day deadline (Feb 19) repriced Oil >$71. Market pricing in high kinetic risk.
-2. **Russia/Ukraine**: Intensification. Feb 21 massive missile/drone strike on energy grid confirms renewed infrastructure campaign.
-3. **US Markets**: Decoupled Bull. S&P 500 (>6900) ignoring yields (>4.08%) and Geopolitics, driven by growth data.
-4. **Red Sea**: "Return" Test. Gemini Alliance (Maersk) resuming Suez transit mid-Feb is the critical supply chain signal.
-5. **Japan**: Policy Pause? Jan CPI (2.0%) cools "April Hike" bets.
+1. **Iran/Oil**: "Ultimatum" Watch. Trump's 15-day deadline (from Feb 19) keeps Oil ~$72. US naval buildup confirms coercion phase.
+2. **Russia/Ukraine**: Infrastructure & Diplomacy. Feb 21 grid strikes paired with "pre-talks" rumors.
+3. **Red Sea**: Gemini Return. Maersk ME11 service attempting Suez transit (mid-Feb) marks a major supply chain normalization test.
+4. **US Markets**: Growth/Yield Divergence. S&P 500 (>6900) ignores 4.08% yields, focused on "No Landing".
+5. **Japan**: Policy Drift. Jan CPI (2.0%) weakens case for immediate BoJ hike.
 
 ## Retired/Stale Narratives
-- "Geneva Talks Hope" (Dead)
-- "China LNY Travel" (Faded)
+- "China LNY Travel" (Ended)
+- "Davos/Geneva" (Stale)
