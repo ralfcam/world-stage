@@ -1,36 +1,36 @@
 active_narratives:
-  - id: trump_iran_ultimatum_feb19
-    title: "Trump sets 15-day deadline for Iran deal; Oil spikes"
+  - id: scotus_tariffs_struck_down
+    title: "SCOTUS strikes down Trump global tariffs (6-3 ruling)"
     status: active
-    since: "2026-02-19"
+    since: "2026-02-20"
+    tags: ["Policy", "Trade", "Equities"]
+    primary_link: "https://www.supremecourt.gov/"
+    last_update: "2026-02-23"
+  - id: trump_iran_ultimatum_48h
+    title: "US gives Iran 48h deadline; protests reignite"
+    status: active
+    since: "2026-02-22"
     tags: ["Geopolitics", "Energy", "Volatility"]
-    primary_link: "https://www.whitehouse.gov/briefing-room/"
-    last_update: "2026-02-22"
-  - id: russia_ukraine_energy_strikes_feb21
-    title: "Russia launches massive energy grid strikes (Feb 21) amid talk rumors"
+    primary_link: "https://modern.az"
+    last_update: "2026-02-23"
+  - id: russia_ukraine_energy_strikes_feb22
+    title: "Russia launches massive energy grid strikes (Feb 21-22)"
     status: active
     since: "2026-02-21"
-    tags: ["Energy", "Defense", "Diplomacy"]
-    primary_link: "https://abcnews.go.com/International/"
-    last_update: "2026-02-22"
+    tags: ["Energy", "Defense"]
+    primary_link: "https://president.gov.ua"
+    last_update: "2026-02-23"
   - id: red_sea_gemini_resumption
     title: "Gemini Alliance (Maersk) ME11 service attempts Red Sea return"
     status: active
     since: "2026-02-02"
     tags: ["Shipping", "SupplyChains"]
     primary_link: "https://www.maersk.com/news/"
-    last_update: "2026-02-22"
-  - id: sp500_record_high_feb20
-    title: "S&P 500 closes at record 6,909 (Growth > Geopolitics)"
+    last_update: "2026-02-23"
+  - id: fed_waller_speech
+    title: "Fed Gov Waller speech (Mon) on outlook"
     status: active
-    since: "2026-02-20"
-    tags: ["Equities", "Macro"]
-    primary_link: "https://markets.ft.com/"
-    last_update: "2026-02-22"
-  - id: japan_cpi_miss_jan
-    title: "Japan Jan CPI slows to 2.0%, testing BoJ hike path"
-    status: active
-    since: "2026-02-20"
-    tags: ["Rates", "FX"]
-    primary_link: "https://www.stat.go.jp/english/data/cpi/"
-    last_update: "2026-02-22"
+    since: "2026-02-23"
+    tags: ["Rates", "Policy"]
+    primary_link: "https://www.federalreserve.gov/"
+    last_update: "2026-02-23"
