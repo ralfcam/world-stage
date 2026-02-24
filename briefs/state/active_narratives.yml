@@ -1,36 +1,21 @@
-active_narratives:
-  - id: scotus_tariffs_struck_down
-    title: "SCOTUS strikes down Trump global tariffs (6-3 ruling)"
+narratives:
+  - id: iran_nuclear_ultimatum
+    label: "Iran 48h Deadline"
     status: active
+    mechanism: "Breakdown -> Strikes -> Hormuz closure -> Oil shock"
     since: "2026-02-20"
-    tags: ["Policy", "Trade", "Equities"]
-    primary_link: "https://www.supremecourt.gov/"
-    last_update: "2026-02-23"
-  - id: trump_iran_ultimatum_48h
-    title: "US gives Iran 48h deadline; protests reignite"
+  - id: red_sea_gemini
+    label: "Gemini Red Sea Transit"
     status: active
-    since: "2026-02-22"
-    tags: ["Geopolitics", "Energy", "Volatility"]
-    primary_link: "https://modern.az"
-    last_update: "2026-02-23"
-  - id: russia_ukraine_energy_strikes_feb22
-    title: "Russia launches massive energy grid strikes (Feb 21-22)"
-    status: active
-    since: "2026-02-21"
-    tags: ["Energy", "Defense"]
-    primary_link: "https://president.gov.ua"
-    last_update: "2026-02-23"
-  - id: red_sea_gemini_resumption
-    title: "Gemini Alliance (Maersk) ME11 service attempts Red Sea return"
-    status: active
+    mechanism: "Successful transit -> Insurance drop -> Deflation"
     since: "2026-02-02"
-    tags: ["Shipping", "SupplyChains"]
-    primary_link: "https://www.maersk.com/news/"
-    last_update: "2026-02-23"
-  - id: fed_waller_speech
-    title: "Fed Gov Waller speech (Mon) on outlook"
+  - id: scotus_trade
+    label: "SCOTUS vs Tariffs"
     status: active
-    since: "2026-02-23"
-    tags: ["Rates", "Policy"]
-    primary_link: "https://www.federalreserve.gov/"
-    last_update: "2026-02-23"
+    mechanism: "Legal check -> Lower import costs -> Bullish equities"
+    since: "2026-02-20"
+  - id: ukraine_grid
+    label: "Ukraine Grid Strikes"
+    status: active
+    mechanism: "Power deficit -> EU energy demand -> Gas price bid"
+    since: "2026-02-22"
